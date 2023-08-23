@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>UpLoad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../style/index.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="./manga.html"><i class="fas fa-film"></i> Series</a></li>
+            <li><a href="./episode.html"><i class="fas fa-book"></i> Capitulos</a></li>
+            <li><a href="./upLoad.html"><i class="fas fa-upload"></i> Upload</a></li>
+        </ul>
+    </nav>
+    <section class="upload-section">
+        <div id="upload-form">
+            <h2>Cargar un Episodio</h2>
+            <label for="titulo">Título del Episodio:</label>
+            <input type="text" id="titulo" name="titulo" required>
+
+            <label for="numero">Número del Episodio:</label>
+            <input type="number" id="numero" name="numero" required>
+
+            <label for="archivo">Archivo del Episodio:</label>
+            <input type="file" id="archivo" name="archivo" accept=".pdf,.jpg,.png" required>
+
+            <button id="btnCargarEpisodio">Cargar Episodio</button>
+
+            <div id="upload-progress">
+                <h3>Archivos en Progreso:</h3>
+                <ul id="upload-list"></ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h1>HostingPopAST</h1>
+            <p>HostingPopAST is a web application that allows users to create and manage their own "manga" accounts.</p>
+            <p>HostingPopAST is a project for the course "manga" in the world.</p>
+            <p>HostingPopAST is created by: ALPE inc.</p>
+            <p>HostingPopAST &copy; 2023</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../scripts/upload.js"></script>
+</body>
+
+</html>

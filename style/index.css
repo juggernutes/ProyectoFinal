@@ -1,0 +1,184 @@
+/* Estilo base para la barra de navegación */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Estilo para la lista de elementos en la barra de navegación */
+nav ul {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0;
+    display: flex; /* Hace que los elementos se alineen en una fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para cada elemento de la lista en la barra de navegación */
+nav li {
+    margin: 0 15px; /* Margen entre los elementos */
+}
+
+/* Estilo para los enlaces dentro de la barra de navegación */
+nav a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+/* Cambio de color al pasar el cursor sobre los enlaces */
+nav a:hover {
+    color: #ffc107; /* Color del texto al pasar el cursor */
+}
+
+/* Estilo para los iconos */
+nav .fa {
+    margin-right: 5px; /* Espaciado a la derecha de los iconos */
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno arriba y abajo */
+    text-align: center; /* Alineación del texto */
+}
+
+/* Estilo para el contenido del footer */
+.footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido horizontalmente */
+}
+
+/* Estilo para los encabezados dentro del footer */
+footer h1 {
+    font-size: 24px; /* Tamaño de fuente para encabezados */
+}
+
+/* Estilo para los párrafos dentro del footer */
+footer p {
+    font-size: 14px; /* Tamaño de fuente para párrafos */
+    margin: 10px 0; /* Espaciado vertical entre párrafos */
+}
+
+/* Cambio de color al pasar el cursor sobre los enlaces en el footer */
+footer a:hover {
+    color: #ffc107; /* Color del texto al pasar el cursor */
+}
+
+/* Estilo para el slider de imágenes */
+.image-slider {
+    position: relative;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+}
+
+/* Estilo para el contenido del slider de imágenes */
+.slider-content {
+    position: relative;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+}
+
+/* Estilo para el contenedor de las diapositivas */
+.slider {
+    display: flex;
+    animation: slide 20s linear infinite; /* Ajusta la duración y la animación según tus necesidades */
+}
+
+/* Estilo para cada diapositiva */
+.slide {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para las imágenes de las diapositivas */
+.slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Estilo para la información de las diapositivas */
+.slide-info {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Estilo para la cuadrícula de imágenes */
+.image-grid {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilo para el contenedor de la cuadrícula */
+.grid {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en filas cuando no haya espacio */
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Estilo para cada elemento de la cuadrícula */
+.grid-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 350px;
+}
+
+/* Estilo para las imágenes de la cuadrícula */
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilo para la información de las imágenes en la cuadrícula */
+.image-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin-left: 10px;
+}
+
+/* Estilo para el título en la información de las imágenes */
+.image-info h3 {
+    margin: 0;
+}
+
+/* Estilo para el párrafo en la información de las imágenes */
+.image-info p {
+    margin: 5px 0;
+}
+
+/* Cambio de opacidad al pasar el cursor sobre la información de las imágenes */
+.grid-item:hover .image-info {
+    opacity: 1;
+}
+
+#upload-progress {
+    margin-top: 20px;
+}
+
+#upload-list {
+    list-style-type: none;
+    padding: 0;
+}
