@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "title": "Naruto",
+      "image": "https://naruto-official.com/comics/key_visual_pc.webp",
+      "description": "En la Villa Oculta de la Hoja, un chaval de lo más problemático que estudia en la escuela de ninjas, Naruto, se dedica a urdir gamberrada tras gamberrada.El sueño de Naruto es el de llegar un día a heredar el nombre de Hokage, reservado a los grandes héroes y de convertirse en el mejor ninja de todos los tiempos",
+      "episodes": [
+        {
+          "id": 101,
+          "title": "NARUTO SHIPPUDEN, CHAPTER 1",
+          "imagenUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_s0uLfXG06HCJAVtUpq0hxxzMIlHaoxWaNdpv6EtV6A2eUC8NydyftK6_jTLf_Y5bGj6v2psdgPzdLyAYcdwzAPFlcwpaKfyJrh-B2q6v6J4w32YaK6z4tLjoYg3JkS9PkVLtdPCp2KakA0BZaCYDtL2z4koVjVr_K9eM2C5pMSmE-qiAZiFgs_rp/s1900/01.jpg",
+          "imagenUr2": "https://naruto-shippuden-anime.com/wp-content/uploads/2020/01/002-1.png"
+        },
+        {
+          "id": 102,
+          "title": "NARUTO SHIPPUDEN, VOL.1 , CHAPTER 3 : UCHIHA SASUKE",
+          "imagenUrl": "https://naruto-shippuden-anime.com/wp-content/uploads/2020/01/002-2.png",
+          "imagenUr2": "https://naruto-shippuden-anime.com/wp-content/uploads/2020/01/003-2.png"
+
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Black Clover",
+      "image": "https://www3.animeflv.net/uploads/animes/covers/2737.jpg",
+      "description": "La historia gira entorno a Asta, un chico bullicioso y sin aparente talento mágico y Yuno, su amigo y rival, el cual es un genio en el uso de la magia. Ambos tienen sueños de convertirse en el Rey Mago, para cumplir la promesa hecha por ambos durante su infancia, uno de los dos debe ser el mago más fuerte.",
+      "episodes": [
+        {
+          "id": 201,
+          "title": "Episodio 1",
+          "imagenUrl": "https://cdn.hxmanga.com/file/majekayoo/black-clover/chapter-1-the-boy-s-vow/3.jpg",
+          "imagenUr2": "https://cdn.hxmanga.com/file/majekayoo/black-clover/chapter-1-the-boy-s-vow/4.jpg"
+        },
+        {
+          "id": 202,
+          "title": "Episodio 2",
+          "imagenUrl": "https://cdn.hxmanga.com/file/majekayoo/black-clover/Chapter-368/01.jpg",
+          "imagenUr2": "https://cdn.hxmanga.com/file/majekayoo/black-clover/Chapter-368/03.jpg"
+        }
+      ]
+    }
+  ]
+  

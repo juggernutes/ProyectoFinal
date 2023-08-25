@@ -11,7 +11,7 @@ function cargarImagenesDelEpisodio(episodeId, container) {
     const settings = {
         async: true,
         crossDomain: true,
-        url: `https://mangaverse-api.p.rapidapi.com/manga?${episodeId}`,
+        url: `https://mangaverse-api.p.rapidapi.com/manga?id=${episodeId}`,
         method: 'GET',
         headers: {
             'X-RapidAPI-Key': '4fc3c08d3fmshcb7eec0ff175ea8p1b447ejsnf27e2074b76d',
@@ -21,13 +21,17 @@ function cargarImagenesDelEpisodio(episodeId, container) {
 
     $.ajax({
         ...settings,
-        success: function(data) {
-            const containerElement = $(container);
+        success: function(response) {
+            const data = response.data;
+            const lenght = data.length;
 
-            data.imagenes.forEach(imagenData => {
-                const img = $('<img>').attr('src', imagenData.imagen_url).attr('alt', imagenData.descripcion);
-                containerElement.append(img);
-            });
+            for (let i = 0; i < lenght; i++) {
+                if (data[i]) {
+                    const imagenData = data[i];
+                    const img = $('<img>').attr('src', imagenData.link).attr('alt', `Imagen ${i + 1}`);
+                    $(container).append(img);
+                }
+            }
         },
         error: function(error) {
             console.error('Error al cargar las imágenes del episodio desde la API:', error);
